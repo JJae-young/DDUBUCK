@@ -1,0 +1,61 @@
+name: test2
+description: "A new Flutter project."
+
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.5.2
+
+dependencies:
+  flutter:
+    sdk: flutter
+  http: ^1.2.1
+  cupertino_icons: ^1.0.8
+  google_maps_flutter: ^2.6.1
+  location: ^7.0.0
+  sliding_up_panel: ^2.0.0
+  shared_preferences: ^2.0.10
+  intl: ^0.19.0
+  table_calendar: ^3.1.2
+  google_sign_in: ^6.2.1
+  font_awesome_flutter: ^10.7.0
+  url_launcher: ^6.3.1
+  webview_flutter: ^4.7.0
+  permission_handler: ^11.3.1
+  xml: ^6.5.0
+  geolocator: ^13.0.1
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^4.0.0
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/quotes.json
+    - assets/marathon1.png
+    - assets/marathon2.png
+    - assets/marathon3.png
+    - assets/marathon4.png
+    - assets/festival1.png
+    - assets/festival2.png
+    - assets/festival3.jpg
+    - assets/festival3.png
+    - assets/festival4.png
+    - assets/background.jpg
+    - assets/crown1.jpg
+    - assets/crown2.jpg
+    - assets/crown3.jpg
+    - assets/crown4.jpg
+    - assets/attend1.jpg
+    - assets/attend2.jpg
+    - assets/attend3.jpg
+    - assets/attend4.jpg
+    - assets/attend5.jpg
+    - assets/attend6.jpg
+    - assets/question.png
+    - assets/bar.jpg
+    - assets/thinking.png
+    - assets/login.png
